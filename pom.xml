@@ -63,6 +63,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>products_api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

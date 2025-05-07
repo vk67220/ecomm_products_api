@@ -10,9 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.ashokit.ecomm</groupId>
-	<artifactId>products_api</artifactId>
+	<artifactId>ecomm_products</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>products_api</name>
+	<name>ecomm_products</name>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>

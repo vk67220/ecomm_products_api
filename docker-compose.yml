@@ -24,7 +24,7 @@ services:
     depends_on:
       - mysql
     ports:
-      - "7777:7777"  # Map external 7777 to internal 8080 (Spring Boot)
+      - "7777:8080"  # Map external 7777 to internal 8080 (Spring Boot)
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/ashokit_ecomm
       SPRING_DATASOURCE_USERNAME: admin
